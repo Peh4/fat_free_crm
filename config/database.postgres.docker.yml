@@ -3,7 +3,7 @@ development: &development
   adapter: postgresql
   database: fat_free_crm_development
   username: postgres
-  password:
+  password: $DB_PASSWORD
   host:     db
   port:     5432
   schema_search_path: public
